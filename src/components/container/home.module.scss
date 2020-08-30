@@ -1,0 +1,13 @@
+.container {
+  .bannerContainer {
+    background-image: url("/assets/backgrounds/home.jpg");
+    filter: brightness(80%);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+  }
+}

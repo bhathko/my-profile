@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  background: #282828;
+  .slogan {
+    text-align: center;
+    padding: 28px 0;
+    line-height: 2;
+    font-size: 26px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Covered By Your Grace', cursive;
+    color: white;
+  }
+  .expertLayout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 540px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    .expert {
+      align-items: center;
+      display: flex;
+      .expertName {
+        font-size: 24px;
+        width: 120px;
+        color: white;
+        font-family: 'Covered By Your Grace', cursive;
+        display: inline-block;
+      }
+      .star {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .socialList {
+    padding: 120px 0;
+    margin: 0 auto;
+    max-width: 540px;
+    width: 100%;
+    .socialTitle {
+      font-size: 32px;
+      color: white;
+      font-family: 'Covered By Your Grace', cursive;
+    }
+  }
+}
